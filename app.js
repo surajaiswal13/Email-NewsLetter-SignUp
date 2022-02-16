@@ -37,7 +37,7 @@ app.post("/", (req, res) => {
 
   const options = {
     method: "POST",
-    auth: "Surajjaiswal12345:fcf1476693e06dcbdf20c54e8f2a32d8-us14",
+    auth: "Surajjaiswal12345:<api-key>",
     // auth: "<user-name>:<api-key>",
   };
 
@@ -77,7 +77,7 @@ app.listen(3000, () => {
 })
 
 // API key
-// fcf1476693e06dcbdf20c54e8f2a32d8-us14
+// <api-key>
 
 // Audience ID
 // 1b71f67c38.
