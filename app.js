@@ -67,6 +67,11 @@ app.post("/", (req, res) => {
   console.log(email);
 })
 
+// TRY AGAIN - redirect to homepage
+app.post("/failure", (req, res) => {
+  res.redirect("/")
+});
+
 app.listen(3000, () => {
   console.log("Server is Listening to port 3000");
 })
